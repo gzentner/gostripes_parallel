@@ -8,7 +8,7 @@ Only paired-end reads are currently supported.
 Clone the repository to a clean working directory that will be used for the analysis.
 
 ```
-git clone https://github.com/rpolicastro/gostripes_parallel.git
+git clone https://github.com/gzentner/gostripes_parallel.git
 ```
 
 It is recommended to use conda to install the required software.
@@ -23,7 +23,7 @@ After miniconda3 is installed, create a GOSTRIPEs environment.
 
 ```
 conda create -n GOSTRIPEs -y -c conda-forge -c bioconda \
-fastqc multiqc csvtk star samtools cutadapt parallel seqtk umi_tools
+fastqc multiqc csvtk star samtools cutadapt parallel seqtk umi_tools bbmap
 ```
 
 The GOSTRIPEs software environment can now be activated for analysis.
